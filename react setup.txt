@@ -1,0 +1,20 @@
+>npx create-react-app web3app
+>cd web3app
+
+Go to src and make the changes in App.js, App.css,index.js and inside public folder index.html
+
+>npm start
+
+If u want deploy contract by using hardhat then creat hardhat project in same folder.
+
+>npx hardhat
+select Javascript file
+create contract in contract directory and then make changes in hardhat.config.js according to network selected 
+
+OR 
+
+If u want deploy contract by using truffle then creat truffle project in same folder.
+
+>truffle init
+
+create contract in contract directory and then make changes in truffle-config.js according to network selected 
